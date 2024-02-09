@@ -11,3 +11,15 @@
     - **Distributed Configuration :** Spring Cloud Config
     - **Distributed Log :** Elk Stack
     - **Distributed Monitoring :** Prometheus and Grafana
+
+- **Pre-requisite** :
+  - **install Docker and Docker Compose** : [Docker](https://docs.docker.com/get-docker/)
+  - **install Maven** : [Maven](https://maven.apache.org/install.html)
+  - **Spring Boot Documentation** : [Spring Boot](https://spring.io/projects/spring-boot)
+- **Setup** :
+  - **Step 1** : Clone the repository
+  - **Step 2** : Run the following Docker Images : 
+    - **Zipkin** : 
+      - `docker run -d -p 9411:9411 openzipkin/zipkin`
+    - **ELK stack** :
+      - `docker-compose up -d`
