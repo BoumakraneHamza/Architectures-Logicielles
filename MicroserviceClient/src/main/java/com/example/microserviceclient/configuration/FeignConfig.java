@@ -18,5 +18,4 @@ public class FeignConfig {
         return new BasicAuthRequestInterceptor("user", "password");
     }
 
-
 }

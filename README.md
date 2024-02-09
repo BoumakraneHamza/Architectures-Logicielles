@@ -1,2 +1,13 @@
-# Architectures-Logicielles
-This repository houses the latest iteration of the Spring Boot TP project, along with my recommended resources for learning Spring Boot and understanding Microservices Architecture. -- The creation of this repository is intended for sharing with AL-M2 course students.
+# Architecture Logicielle :
+- The code used in this example is provided by : ''
+- The main purpose of this repository is to use a more recent and up to date version of spring boot
+- this lead to removing and replacing some deprecated and no longer maintained tools and dependencies
+- **Tools Used :**
+    - **API Gateway :**  Spring Cloud Gateway
+    - **Service Discovery :** Eureka
+    - **Circuit Breaker :** Resilience4j
+    - **Load Balancer :** Ribbon
+    - **Distributed Tracing :** Zipkin
+    - **Distributed Configuration :** Spring Cloud Config
+    - **Distributed Log :** Elk Stack
+    - **Distributed Monitoring :** Prometheus and Grafana

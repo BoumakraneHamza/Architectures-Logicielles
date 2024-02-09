@@ -1,0 +1,55 @@
+server:
+  port : 8081
+
+spring:
+  application:
+    name: MicroserviceClient
+
+  thymeleaf:
+    prefix : classpath:/templates/
+    suffix : .html
+
+  zipkin:
+    base-url: http://localhost:9411
+
+eureka:
+  client:
+    register-with-eureka : true
+    fetch-registry : true
+    service-url:
+      defaultZone : http://localhost:9102/eureka
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+  tracing:
+    sampling:
+      probability: 1.0
+
+  endpoint:
+    health:
+      show-details: always
+
+  health:
+    circuitbreakers:
+      enabled: true
+
+resilience4j:
+  circuitbreaker:
+    instances:
+      ProductCircuitBreaker:
+        register-health-indicator: true
+        failure-rate-threshold: 25
+        minimum-number-of-calls: 3
+        automatic-transition-from-open-to-half-open-enabled: true
+        wait-duration-in-open-state: 5s
+        permitted-number-of-calls-in-half-open-state: 3
+        sliding-window-size: 5
+        sliding-window-type: COUNT_BASED
+
+logging:
+  file:
+    name: C:\Users\Hamza\Documents\Microservices\MicroserviceClient\logs\client.log
