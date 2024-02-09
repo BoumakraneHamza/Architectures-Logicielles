@@ -1,0 +1,6 @@
+2023-12-23T00:03:25.253+01:00  INFO [MicroserviceClient,,,] 21912 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-23T00:08:25.499+01:00  INFO [MicroserviceClient,,,] 21912 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-23T00:13:25.505+01:00  INFO [MicroserviceClient,,,] 21912 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-23T00:18:25.523+01:00  INFO [MicroserviceClient,,,] 21912 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-23T00:23:25.531+01:00  INFO [MicroserviceClient,,,] 21912 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2023-12-23T00:28:25.532+01:00  INFO [MicroserviceClient,,,] 21912 --- [AsyncResolver-bootstrap-executor-0] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
