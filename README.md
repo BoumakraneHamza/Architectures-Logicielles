@@ -23,3 +23,6 @@
       - `docker run -d -p 9411:9411 openzipkin/zipkin`
     - **ELK stack** :
       - `docker-compose up -d`
+
+- **Resources**:
+  - [Building a rest api with Spring-boot](https://spring.academy/courses/building-a-rest-api-with-spring-boot)
